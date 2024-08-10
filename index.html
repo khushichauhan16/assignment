@@ -1,0 +1,731 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20,400,0,0" />
+</head>
+
+<body>
+    <div class="container">
+        <!--sidebar start-->
+        <aside class="aside">
+            <div class="first">
+                <div class="top-left">
+                    <div class="logo">
+                        <div class="circle1"></div>
+                        <div class="circle2"></div>
+                        <div class="circle-white"></div>
+                    </div>
+                    <h2>Kley.</h2>
+                </div>
+                <span class="material-symbols-rounded" style="margin: 1px;">
+                    dock_to_right
+                </span>
+            </div>
+            <div class="second">
+                <div class="top-left">
+                    <img src="https://assets.codepen.io/344846/internal/avatars/users/default.png?fit=crop&amp;format=auto&amp;height=512&amp;version=1582611188&amp;width=512"
+                        style="width: 30px; border-radius: 100%;margin-right: 4px;" alt="profile">
+                    <div style="display: flex;flex-direction: column;justify-content: center;">
+                        <p style="margin: 0;" class="thick">Hidaytama Irsada...</p>
+                        <p style="margin: 0;">Tokomedia</p>
+                    </div>
+                </div>
+                <span class="material-symbols-rounded" style="margin: 1px;">
+                    unfold_more
+                </span>
+            </div>
+
+            <nav class="sidebar grid-col">
+                <div>
+                    <ul class="menu_items">
+                        <div class="menu_title menu_dahsboard">General</div>
+                        <li class="item">
+                            <span class="material-symbols-rounded navlink_icon" style="margin: 1px;">
+                                overview
+                            </span>
+                            <p class="navlink">overview</p>
+                        </li>
+                        <li class="item">
+                            <span class="material-symbols-rounded navlink_icon" style="margin: 1px;">
+                                cards
+                            </span>
+                            <p class="navlink">My Cards</p>
+                        </li>
+                        <li class="item">
+                            <span class="material-symbols-rounded navlink_icon" style="margin: 1px;">
+                                cards
+                            </span>
+                            <p class="navlink">Transfer</p>
+                        </li>
+                        <li class="item">
+                            <span class="material-symbols-rounded navlink_icon thick" style="margin: 1px;">
+                                cards
+                            </span>
+                            <p class="navlink thick">Transactions</p><span class="message">12</span>
+                        </li>
+                        <li class="item">
+                            <span class="material-symbols-rounded navlink_icon" style="margin: 1px;">
+                                payment
+                            </span>
+                            <p class="navlink">Payment</p>
+                        </li>
+                        <li class="item">
+                            <span class="material-symbols-rounded navlink_icon" style="margin: 1px;">
+                                payment
+                            </span>
+                            <p class="navlink">Exchange</p>
+                        </li>
+                    </ul>
+                    <ul class="menu_items">
+                        <div class="menu_title menu_dahsboard">Industry</div>
+                        <li class="item">
+                            <span class="material-symbols-rounded navlink_icon" style="margin: 1px;">
+                                overview
+                            </span>
+                            <p class="navlink">Manufacturing</p>
+                        </li>
+                        <li class="item">
+                            <span class="material-symbols-rounded navlink_icon" style="margin: 1px;">
+                                cards
+                            </span>
+                            <p class="navlink">Marketing</p><span class="message">135</span>
+                        </li>
+                        <li class="item">
+                            <span class="material-symbols-rounded navlink_icon" style="margin: 1px;">
+                                cards
+                            </span>
+                            <p class="navlink">Export/Imports</p>
+                        </li>
+                    </ul>
+                    <ul class="menu_items">
+                        <div class="menu_title menu_dahsboard">Product</div>
+                        <li class="item">
+                            <span class="material-symbols-rounded navlink_icon" style="margin: 1px;">
+                                overview
+                            </span>
+                            <p class="navlink">Debit Cards</p>
+                        </li>
+                        <li class="item">
+                            <span class="material-symbols-rounded navlink_icon" style="margin: 1px;">
+                                cards
+                            </span>
+                            <p class="navlink">Foreign exchange</p>
+                        </li>
+                        <li class="item">
+                            <span class="material-symbols-rounded navlink_icon" style="margin: 1px;">
+                                cards
+                            </span>
+                            <p class="navlink">Multi currency account</p>
+                        </li>
+                    </ul>
+                </div>
+                <div>
+                    <ul class="menu_items">
+                        <li class="item">
+                            <span class="material-symbols-rounded navlink_icon" style="margin: 1px;">
+                                overview
+                            </span>
+                            <p class="navlink">Debit Cards</p>
+                        </li>
+                        <li class="item">
+                            <span class="material-symbols-rounded navlink_icon" style="margin: 1px;">
+                                cards
+                            </span>
+                            <p class="navlink">Foreign exchange</p>
+                        </li>
+                        <li class="item">
+                            <span class="material-symbols-rounded navlink_icon" style="margin: 1px;">
+                                cards
+                            </span>
+                            <p class="navlink">Multi currency account</p>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </aside>
+        <!--sidebar end-->
+
+        <!--main section start-->
+        <main>
+            <div class="main-header">
+                <div class="header-left">
+                    <h2 style="margin: 0;">Transactions</h2>
+                    <p style="margin: 4px 0;color: #302e2e;">Review and manage all your money transfer in one place</p>
+                </div>
+                <div class="header-right">
+                    <button class="but"><span class="material-symbols-rounded" style="color: #999999;">
+                            send_money
+                        </span>Request Money</button>
+                    <button class="but"
+                        style="background-color: rgb(15, 15, 15);color: white;border: #0c0a0a solid 1px;"><span
+                            class="material-symbols-rounded" style="color: #999999;">
+                            add_circle
+                        </span>Add Funds</button>
+                </div>
+            </div>
+            <div class="tabBar">
+                <a href="#" class="tabs">Overview</a>
+                <a href="#" class="tabs" style="color: black;background-color: white;">Transactions</a>
+                <a href="#" class="tabs sm:block hidden">Cards</a>
+                <a href="#" class="tabs sm:block hidden">Recurring
+                    transactions</a>
+            </div>
+            <div class="main-section">
+                <div class="main-first-part">
+                    <form class="search-container">
+                        <button id="dropdown-button" class="category" type="button">
+                            <div style="display: flex;justify-items: center;align-items: center;">
+                                <span class="material-symbols-rounded" style="color: #999999;">
+                                    filter_list
+                                </span>
+                                <p style="color: #999999;display: inline;text-align: center; width: 80px;">All
+                                    categories</p>
+                            </div>
+                            <span class="material-symbols-rounded" style="margin-left: 6px;color: #999999;">
+                                keyboard_arrow_down
+                            </span>
+                        </button>
+                        <div class="search" style="width: 100%;">
+                            <input type="search" id="search-dropdown" placeholder="Search"
+                                style="padding: 6px;border: 0;width: 100%;" />
+                            <button type="submit" style="border: 0;background-color: white;">
+                                <span class="material-symbols-rounded" style="margin-left: 3px;color: #999999;">
+                                    search
+                                </span>
+                            </button>
+                        </div>
+                    </form>
+                </div>
+                <div class="main-second-part">
+                    <div class="left-sect">
+                        <div class="item1">
+                            <div class="main-header">
+                                <div class="iconss">
+                                    <span class="material-symbols-rounded" style="color: #999999;">
+                                        cards
+                                    </span>My Cards
+                                </div>
+                                <button class="but"><span class="material-symbols-rounded" style="color: #999999;">
+                                        add
+                                    </span>Add card</button>
+                            </div>
+                            <div class="atm">
+                                <h3 style="margin: 0;">Kley card</h3>
+                                <h3 style="display: flex;align-items: center;gap: 10px;margin: 0;">
+                                    100-2345-3456-456<span class="material-symbols-rounded"
+                                        style="color: #999999;font-size: 16px;">
+                                        visibility
+                                    </span>
+                                </h3>
+                                <div class="main-header" style="justify-content: space-between;width: 100%;">
+                                    <div class="info">
+                                        <p>Hidaytama Irsadanar</p>
+                                        <div class="main-header" style="padding-top: 10px;">
+                                            <p style="color: #999999;">Exp <strong style="color: white;">09/25</strong>
+                                            </p>
+                                            <p style="color: #999999;">CVC <strong style="color: white;">235</strong>
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="logo-1" style="padding: 0;">
+                                        <img src="image.png" alt="master" style="width: 48px;">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="main-header">
+                                <div class="iconss">
+                                    <span class="material-symbols-rounded" style="color: #999999;">
+                                        cards
+                                    </span>Billing address
+                                </div>
+                                <button class="but" style="padding: 2px 4px; border-radius: 6px;"><span
+                                        class="material-symbols-rounded" style="color: #999999;font-size: 18px;">
+                                        edit
+                                    </span>Edit</button>
+                            </div>
+                            <p style="font-size: 10px;padding-left: 26px;">123 Main St, Apt 4B Springfield, IL 62704</p>
+                            <div class="SpendingLimits">
+                                <div style="border-bottom: #d3d1d1 solid 1px;">
+                                    <p style="text-align: center;padding:7px 4px;">Spending Limits</p>
+                                </div>
+                                <div style="display: flex;align-items: start;">
+                                    <div style="border-right: #d3d1d1 solid 1px;width: 50%;padding: 4px 2px;">
+                                        <div style="display: flex;justify-content: start;align-items: center;">
+                                            <div class="progress-bar">
+                                                <div class="ui-widgets">
+                                                </div>
+                                            </div>
+                                            <div>
+                                                <p style="margin: 0;color: #999999;font-size: 11px;">Per transactions
+                                                </p>
+                                                <p style="margin: 0;font-size: 13px;">Rp 100.000,00</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div style="width: 50%;padding: 4px 2px">
+                                        <div style="display: flex;justify-content: start;align-items: center;">
+                                            <div class="progress-bar">
+                                                <div class="ui-widgets2">
+                                                </div>
+                                            </div>
+                                            <div>
+                                                <p style="margin: 0;color: #999999;font-size: 11px;">Withdraw cash</p>
+                                                <p style="margin: 0;font-size: 13px;">Rp 15.000,00</p>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item2">
+                            <div style="border-bottom: #d3d1d1 solid 1px;padding:20px 20px 0 20px;">
+                                <div class="main-header">
+                                    <div class="iconss">
+                                        <span class="material-symbols-rounded" style="color: #999999;">
+                                            money
+                                        </span>Available Funds
+                                    </div>
+                                    <button class="but"
+                                        style="padding: 5px 6px; border: #999999 solid 1px;font-weight: 700;">Account
+                                        details</button>
+                                </div>
+                                <div class="main-header" style="color: black;">
+                                    <h3 style="padding: 0;">Rp 1.124.346,00</h3>
+                                    <div style="display: flex;padding: 0;">
+                                        <p
+                                            style="display: flex;justify-content: center;align-items: center;padding: 0;">
+                                            .....</p>
+                                        <p style="padding: 0;">325</p>
+                                        <span style="padding: 0;; margin-left: 3px;font-size: 16px;color: #999999;"
+                                            class="material-symbols-rounded">
+                                            visibility_off
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div style="padding:20px;">
+                                <div class="main-header">
+                                    <div class="iconss">
+                                        <span class="material-symbols-rounded" style="color: #999999;">
+                                            money
+                                        </span>Recent Transfer
+                                    </div>
+                                    <button class="but"
+                                        style="padding: 5px 6px; border: #999999 solid 1px;font-weight: 700;">See
+                                        all</button>
+                                </div>
+                                <div style="display: flex;flex-direction: column;gap: 8px;margin-top: 10px;">
+                                    <div class="main-header">
+                                        <div style="display: flex;gap: 4px;">
+                                            <img src="https://assets.codepen.io/344846/internal/avatars/users/default.png?fit=crop&amp;format=auto&amp;height=512&amp;version=1582611188&amp;width=512"
+                                                style="width: 30px; border-radius: 100%;margin-right: 4px;"
+                                                alt="profile">
+                                            <div style="display: flex;flex-direction: column;justify-content: center;">
+                                                <p style="margin: 0;color: black;">Cheyenne Calzoni</p>
+                                                <p style="margin: 0;font-size: small;">20 May,2024</p>
+                                            </div>
+                                        </div>
+                                        <div
+                                            style="display: flex;flex-direction: column;justify-content: center;align-items: end;">
+                                            <p style="margin: 0;color: red;" class="thick">-Rp 120.000</p>
+                                            <p style="margin: 0;font-size: small;">wealth transfer</p>
+                                        </div>
+                                    </div>
+                                    <div class="main-header">
+                                        <div style="display: flex;gap: 4px;">
+                                            <img src="https://assets.codepen.io/344846/internal/avatars/users/default.png?fit=crop&amp;format=auto&amp;height=512&amp;version=1582611188&amp;width=512"
+                                                style="width: 30px; border-radius: 100%;margin-right: 4px;"
+                                                alt="profile">
+                                            <div style="display: flex;flex-direction: column;justify-content: center;">
+                                                <p style="margin: 0;color: black;">Cheyenne Calzoni</p>
+                                                <p style="margin: 0;font-size: small;">20 May,2024</p>
+                                            </div>
+                                        </div>
+                                        <div
+                                            style="display: flex;flex-direction: column;justify-content: center;align-items: end;">
+                                            <p style="margin: 0;color: red;" class="thick">-Rp 120.000</p>
+                                            <p style="margin: 0;font-size: small;">wealth transfer</p>
+                                        </div>
+                                    </div>
+                                    <div class="main-header">
+                                        <div style="display: flex;gap: 4px;">
+                                            <img src="https://assets.codepen.io/344846/internal/avatars/users/default.png?fit=crop&amp;format=auto&amp;height=512&amp;version=1582611188&amp;width=512"
+                                                style="width: 30px; border-radius: 100%;margin-right: 4px;"
+                                                alt="profile">
+                                            <div style="display: flex;flex-direction: column;justify-content: center;">
+                                                <p style="margin: 0;color: black;">Cheyenne Calzoni</p>
+                                                <p style="margin: 0;font-size: small;">20 May,2024</p>
+                                            </div>
+                                        </div>
+                                        <div
+                                            style="display: flex;flex-direction: column;justify-content: center;align-items: end;">
+                                            <p style="margin: 0;color: red;" class="thick">-Rp 120.000</p>
+                                            <p style="margin: 0;font-size: small;">wealth transfer</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                        </div>
+                    </div class="right-sect">
+                    <div style="width: 100%;">
+                        <div class=" item3">
+                            <div class="main-header">
+                                <div class="iconss">
+                                    <span class="material-symbols-rounded">
+                                        history_toggle_off
+                                    </span>Transactions History
+                                </div>
+                                <div style="display: flex;gap: 5px;">
+                                    <button class="but"><span class="material-symbols-rounded" style="color: #999999;">
+                                            filter_list
+                                        </span>Add filter</button>
+                                    <button class="but"><span class="material-symbols-rounded" style="color: #999999;">
+                                            list
+                                        </span>Group by</button>
+                                </div>
+
+                            </div>
+                            <table>
+                                <tr>
+                                    <th style="text-align: left;"><input type="checkbox"></th>
+                                    <th>
+                                        <p style="display: inline;text-align: center;float: left;padding: 3px;">Date
+                                        </p>
+                                        <span class="material-symbols-rounded"
+                                            style="color: #999999;text-align: center;float: right;font-size: 20px; padding: 2px;">
+                                            keyboard_arrow_down
+                                        </span>
+                                    </th>
+                                    <th>
+                                        <p style="display: inline;text-align: center;float: left;padding: 3px;">Time
+                                        </p>
+                                        <span class="material-symbols-rounded"
+                                            style="color: #999999;text-align: center;float: right;font-size: 20px; padding: 2px;">
+                                            keyboard_arrow_down
+                                        </span>
+                                    </th>
+
+                                    <th style="text-align: start;">Description</th>
+                                    <th>
+                                        <p style="display: inline;text-align: center;float: left;padding: 3px;">Amount
+                                        </p>
+                                        <span class="material-symbols-rounded"
+                                            style="color: #999999;text-align: center;float: right;font-size: 20px; padding: 2px;">
+                                            file_open
+                                        </span>
+                                    </th>
+                                    <th style="text-align: start;">Status</th>
+                                </tr>
+                                <tr>
+                                    <td><input type="checkbox"></td>
+                                    <td>12/34/24</td>
+                                    <td style="color: #7e7979;">13:45:33</td>
+                                    <td style="color: #777070;">Debit Card</td>
+                                    <td style="color: #5c5959;">Rp.120.000.00</td>
+                                    <td>
+                                        <span class="material-symbols-rounded"
+                                            style="color: #999999;text-align: center;float: left;font-size: 16px; padding: 2px 0;">
+                                            rotate_right
+                                        </span>
+                                        <p style="display: inline;text-align: center;float: left;padding: 2px 4px">In
+                                            Progress
+                                        </p>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td><input type="checkbox"></td>
+                                    <td>12/34/24</td>
+                                    <td style="color: #7e7979;">13:45:33</td>
+                                    <td style="color: #777070;">Debit Card</td>
+                                    <td style="color: #5c5959;">Rp.120.000.00</td>
+                                    <td>
+                                        <span class="material-symbols-rounded"
+                                            style="color: #999999;text-align: center;float: left;font-size: 16px; padding: 2px 0;">
+                                            rotate_right
+                                        </span>
+                                        <p style="display: inline;text-align: center;float: left;padding: 2px 4px">In
+                                            Progress
+                                        </p>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td><input type="checkbox"></td>
+                                    <td>12/34/24</td>
+                                    <td style="color: #7e7979;">13:45:33</td>
+                                    <td style="color: #777070;">Debit Card</td>
+                                    <td style="color: #5c5959;">Rp.120.000.00</td>
+                                    <td>
+                                        <span class="material-symbols-rounded"
+                                            style="color: #999999;text-align: center;float: left;font-size: 16px; padding: 2px 0;">
+                                            rotate_right
+                                        </span>
+                                        <p style="display: inline;text-align: center;float: left;padding: 2px 4px">In
+                                            Progress
+                                        </p>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td><input type="checkbox"></td>
+                                    <td>12/34/24</td>
+                                    <td style="color: #7e7979;">13:45:33</td>
+                                    <td style="color: #777070;">Debit Card</td>
+                                    <td style="color: #5c5959;">Rp.120.000.00</td>
+                                    <td>
+                                        <span class="material-symbols-rounded"
+                                            style="color: #999999;text-align: center;float: left;font-size: 16px; padding: 2px 0;">
+                                            rotate_right
+                                        </span>
+                                        <p style="display: inline;text-align: center;float: left;padding: 2px 4px">In
+                                            Progress
+                                        </p>
+                                    </td>
+                                </tr>
+                                </tr>
+                                <tr>
+                                    <td><input type="checkbox"></td>
+                                    <td>12/34/24</td>
+                                    <td style="color: #7e7979;">13:45:33</td>
+                                    <td style="color: #777070;">Debit Card</td>
+                                    <td style="color: #5c5959;">Rp.120.000.00</td>
+                                    <td style="color: green;text-align: start;">
+                                        <span class="material-symbols-rounded"
+                                            style="float: left;font-size: 16px; padding: 2px 0;">
+                                            check_circle
+                                        </span>
+                                        <p style="display: inline;float: left;padding: 2px 4px">Completed
+                                        </p>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td><input type="checkbox"></td>
+                                    <td>12/34/24</td>
+                                    <td style="color: #7e7979;">13:45:33</td>
+                                    <td style="color: #777070;">Debit Card</td>
+                                    <td style="color: #5c5959;">Rp.120.000.00</td>
+                                    <td style="color: green;text-align: start;">
+                                        <span class="material-symbols-rounded"
+                                            style="float: left;font-size: 16px; padding: 2px 0;">
+                                            check_circle
+                                        </span>
+                                        <p style="display: inline;float: left;padding: 2px 4px">Completed
+                                        </p>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td><input type="checkbox"></td>
+                                    <td>12/34/24</td>
+                                    <td style="color: #7e7979;">13:45:33</td>
+                                    <td style="color: #777070;">Debit Card</td>
+                                    <td style="color: #5c5959;">Rp.120.000.00</td>
+                                    <td style="color: green;text-align: start;">
+                                        <span class="material-symbols-rounded"
+                                            style="float: left;font-size: 16px; padding: 2px 0;">
+                                            check_circle
+                                        </span>
+                                        <p style="display: inline;float: left;padding: 2px 4px">Completed
+                                        </p>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td><input type="checkbox"></td>
+                                    <td>12/34/24</td>
+                                    <td style="color: #7e7979;">13:45:33</td>
+                                    <td style="color: #777070;">Debit Card</td>
+                                    <td style="color: #5c5959;">Rp.120.000.00</td>
+                                    <td style="color: green;text-align: start;">
+                                        <span class="material-symbols-rounded"
+                                            style="float: left;font-size: 16px; padding: 2px 0;">
+                                            check_circle
+                                        </span>
+                                        <p style="display: inline;float: left;padding: 2px 4px">Completed
+                                        </p>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td><input type="checkbox"></td>
+                                    <td>12/34/24</td>
+                                    <td style="color: #7e7979;">13:45:33</td>
+                                    <td style="color: #777070;">Debit Card</td>
+                                    <td style="color: #5c5959;">Rp.120.000.00</td>
+                                    <td style="color: rgb(30, 62, 203);text-align: start;">
+                                        <span class="material-symbols-rounded"
+                                            style="float: left;font-size: 16px; padding: 2px 0;">
+                                            schedule
+                                        </span>
+                                        <p style="display: inline;float: left;padding: 2px 4px">Pending
+                                        </p>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td><input type="checkbox"></td>
+                                    <td>12/34/24</td>
+                                    <td style="color: #7e7979;">13:45:33</td>
+                                    <td style="color: #777070;">Debit Card</td>
+                                    <td style="color: #5c5959;">Rp.120.000.00</td>
+                                    <td style="color: rgb(30, 62, 203);text-align: start;">
+                                        <span class="material-symbols-rounded"
+                                            style="float: left;font-size: 16px; padding: 2px 0;">
+                                            schedule
+                                        </span>
+                                        <p style="display: inline;float: left;padding: 2px 4px">Pending
+                                        </p>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td><input type="checkbox"></td>
+                                    <td>12/34/24</td>
+                                    <td style="color: #7e7979;">13:45:33</td>
+                                    <td style="color: #777070;">Debit Card</td>
+                                    <td style="color: #5c5959;">Rp.120.000.00</td>
+                                    <td style="color: rgb(30, 62, 203);text-align: start;">
+                                        <span class="material-symbols-rounded"
+                                            style="float: left;font-size: 16px; padding: 2px 0;">
+                                            schedule
+                                        </span>
+                                        <p style="display: inline;float: left;padding: 2px 4px">Pending
+                                        </p>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td><input type="checkbox"></td>
+                                    <td>12/34/24</td>
+                                    <td style="color: #7e7979;">13:45:33</td>
+                                    <td style="color: #777070;">Debit Card</td>
+                                    <td style="color: #5c5959;">Rp.120.000.00</td>
+                                    <td style="color: rgb(30, 62, 203);text-align: start;">
+                                        <span class="material-symbols-rounded"
+                                            style="float: left;font-size: 16px; padding: 2px 0;">
+                                            schedule
+                                        </span>
+                                        <p style="display: inline;float: left;padding: 2px 4px">Pending
+                                        </p>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td><input type="checkbox"></td>
+                                    <td>12/34/24</td>
+                                    <td style="color: #7e7979;">13:45:33</td>
+                                    <td style="color: #777070;">Debit Card</td>
+                                    <td style="color: #5c5959;">Rp.120.000.00</td>
+                                    <td style="color: rgb(203, 32, 57);text-align: start;">
+                                        <span class="material-symbols-rounded"
+                                            style="float: left;font-size: 16px; padding: 2px 0;">
+                                            block
+                                        </span>
+                                        <p style="display: inline;float: left;padding: 2px 4px">Cancelled
+                                        </p>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td><input type="checkbox"></td>
+                                    <td>12/34/24</td>
+                                    <td style="color: #7e7979;">13:45:33</td>
+                                    <td style="color: #777070;">Debit Card</td>
+                                    <td style="color: #5c5959;">Rp.120.000.00</td>
+                                    <td style="color: rgb(203, 32, 57);text-align: start;">
+                                        <span class="material-symbols-rounded"
+                                            style="float: left;font-size: 16px; padding: 2px 0;">
+                                            block
+                                        </span>
+                                        <p style="display: inline;float: left;padding: 2px 4px">Cancelled
+                                        </p>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td><input type="checkbox"></td>
+                                    <td>12/34/24</td>
+                                    <td style="color: #7e7979;">13:45:33</td>
+                                    <td style="color: #777070;">Debit Card</td>
+                                    <td style="color: #5c5959;">Rp.120.000.00</td>
+                                    <td style="color: rgb(203, 32, 57);text-align: start;">
+                                        <span class="material-symbols-rounded"
+                                            style="float: left;font-size: 16px; padding: 2px 0;">
+                                            block
+                                        </span>
+                                        <p style="display: inline;float: left;padding: 2px 4px">Cancelled
+                                        </p>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td><input type="checkbox"></td>
+                                    <td>12/34/24</td>
+                                    <td style="color: #7e7979;">13:45:33</td>
+                                    <td style="color: #777070;">Debit Card</td>
+                                    <td style="color: #5c5959;">Rp.120.000.00</td>
+                                    <td style="color: rgb(203, 32, 57);text-align: start;">
+                                        <span class="material-symbols-rounded"
+                                            style="float: left;font-size: 16px; padding: 2px 0;">
+                                            block
+                                        </span>
+                                        <p style="display: inline;float: left;padding: 2px 4px">Cancelled
+                                        </p>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td><input type="checkbox"></td>
+                                    <td>12/34/24</td>
+                                    <td style="color: #7e7979;">13:45:33</td>
+                                    <td style="color: #777070;">Debit Card</td>
+                                    <td style="color: #5c5959;">Rp.120.000.00</td>
+                                    <td>
+                                        <span class="material-symbols-rounded"
+                                            style="color: #999999;text-align: center;float: left;font-size: 16px; padding: 2px 0;">
+                                            rotate_right
+                                        </span>
+                                        <p style="display: inline;text-align: center;float: left;padding: 2px 4px">In
+                                            Progress
+                                        </p>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td><input type="checkbox"></td>
+                                    <td>12/34/24</td>
+                                    <td style="color: #7e7979;">13:45:33</td>
+                                    <td style="color: #777070;">Debit Card</td>
+                                    <td style="color: #5c5959;">Rp.120.000.00</td>
+                                    <td style="color: rgb(30, 62, 203);text-align: start;">
+                                        <span class="material-symbols-rounded"
+                                            style="float: left;font-size: 16px; padding: 2px 0;">
+                                            schedule
+                                        </span>
+                                        <p style="display: inline;float: left;padding: 2px 4px">Pending
+                                        </p>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td><input type="checkbox"></td>
+                                    <td>12/34/24</td>
+                                    <td style="color: #7e7979;">13:45:33</td>
+                                    <td style="color: #777070;">Debit Card</td>
+                                    <td style="color: #5c5959;">Rp.120.000.00</td>
+                                    <td style="color: rgb(30, 62, 203);text-align: start;">
+                                        <span class="material-symbols-rounded"
+                                            style="float: left;font-size: 16px; padding: 2px 0;">
+                                            schedule
+                                        </span>
+                                        <p style="display: inline;float: left;padding: 2px 4px">Pending
+                                        </p>
+                                    </td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </main>
+        <!--main section end-->
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
